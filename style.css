@@ -1,0 +1,81 @@
+body {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 18px;
+	color: #FE982B;
+	background-image: url("VHS-background.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#searches {
+	width: 70%;
+}
+.search-item {
+	float: left;
+	padding: 10px;
+}
+form {
+	width: 30%;
+	float: right;
+	padding: 20px;
+}
+label {
+	display: block;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+	color: #BDF080;
+	text-shadow: 2px 2px 3px #252324;
+}
+input[type="text"] {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 30px;
+	font-size: 18px;
+}
+button, input[type="submit"] {
+	background: #BDF080;
+	color: #ffffff;
+	border: 0;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 18px;
+	font-family: 'Permanent Marker', cursive;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+	box-shadow: 2px 2px 3px #252324;
+}
+button.searchButton {
+	background: #B67CE5;
+	color: #ffffff;
+	border: 0;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 18px;
+	font-family: 'Permanent Marker', cursive;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+	box-shadow: 2px 2px 3px #252324;
+}
+button:hover,
+input[type="submit"]:hover {
+	background: #E950B4;
+}
+button:active {
+	background: #FE982B;
+}
+span.searchMore {
+	clear: both;
+	display: block;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+	color: #BDF080;
+	text-shadow: 2px 2px 3px #252324;
+	cursor: pointer;
+}
+span.searchMore:hover {
+	color: #FE982B;
+}
